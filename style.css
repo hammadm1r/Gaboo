@@ -1,0 +1,147 @@
+.header-bar{
+    background-color: #292929;
+}
+.header-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.header-bar-right a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.user:hover{
+    color: #e1bb96 !important;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: #292929;
+    font-weight:500;
+}
+.header-nav a:hover{
+    color: #e1bb96;
+}
+
+.heading h2{
+    color: #e1bb96;
+}
+.para p{
+   color :#b0abab;
+}
+.head-img{
+    overflow: hidden;
+}
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+.account-bar{
+    background-color: #292929;
+    padding:10px;
+}
+.searchbtn{
+    height: 40px;
+    background-color: #fff;
+    width: 300px;
+    border: 0;
+    color: #b0abab;
+    
+}
+.search-mono{
+    background-color: #d2985e;
+    width:40px;
+    height:40px;
+    margin-left: -25px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.cart-mono{
+    background-color: #d2985e;
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    margin-right: 0px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top:20px;
+}
+.balance{
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.account-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 20px;
+  
+}
+.account-bar a:hover{
+    color: #e1bb96;
+}
+                            /* Section 1 css*/
+.section-1 h3{
+    color: #e1bb96;
+}
+.product-nav a{
+    text-decoration: none;
+    color: #292929;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.product-nav a:hover{
+    color: #e1bb96;
+}
+.product{
+    text-decoration: none;
+}
+.name{
+    text-decoration: none;
+    color: #292929;
+    font-weight: 700;
+    font-size: large;
+}
+.price{
+    text-decoration: none;
+    color: #d2985e;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .header-bar {
+      display: none;
+    }
+    .account_bar{
+        display: none;
+    }
+  }
